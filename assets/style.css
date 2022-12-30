@@ -1,0 +1,57 @@
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header, footer{
+  min-height: 15vh;
+  text-align: center;
+  padding: 0% 10%;
+}
+main{
+  background-color: aqua;
+  min-height: 70vh;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section{
+  width: 30%;
+  border: 1px dashed black;
+  padding: 0% 1%;
+  padding-bottom: 1%;
+  margin: 1%;
+}
+section h3{
+  border: 1px solid black;
+  border-radius: 8px;
+  position: relative;
+  bottom: 12px;
+  background: #c0ffee;
+}
+section pre{
+  background-image: linear-gradient(red 0%, white 100%);
+  border-radius: 8px;
+
+}
+header{
+  background-color: blueviolet;
+}
+footer{
+  background-color: salmon;
+}
+@media screen and (max-width: 992px) {
+    section{
+      width:45%;
+    }
+  
+}
+@media screen and (max-width: 576px) {
+    section{
+      width: 97%;
+    }
+  
+}
+
